@@ -80,12 +80,12 @@ public:
 	void display()
 	{
 		cout << "Elements in Queue are:" << endl;
-		cout << "First -->";
-		for (int i = 0; i <= rear; i++)
+		cout << "First --> ";
+		for (int i = 0; i < SIZE; i++)
 		{
 			cout << arr[i] << " --> ";
 		}
-		cout << " rear" << endl;
+		cout << "rear" << endl;
 	}
 };
 
