@@ -64,18 +64,9 @@ public:
 		else
 		{
 			x = arr[front];
-			for (int i = 1; i <= rear; i++)
-			{
-				arr[i - 1] = arr[i];
-			}
-			rear--;
-			return x;
-
-
-			/*x = arr[front];
 			arr[front] = 0;
 			front++;
-			return x;*/
+			return x;
 		}
 	}
 
