@@ -183,7 +183,7 @@ public:
 			cout << "No Nodes in Singly Linked List." << endl;
 		else
 		{
-			cout << "\nKey and Values in Singly Linked List: [key|value]" << endl;
+			cout << "\nKey and Values in Singly Linked List: [key|value|next]" << endl;
 			Node* temp = head;
 
 			while (temp != nullptr)
