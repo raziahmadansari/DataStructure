@@ -188,7 +188,8 @@ public:
 
 			while (temp != nullptr)
 			{
-				cout << "[" << temp->key << "|" << temp->data << "]";
+				// cout << "[" << temp->key << "|" << temp->data << "]";
+				cout << "[" << temp->key << "|" << temp->data << "|" << temp->next << "]"; //00000000 represents nullptr.
 				temp = temp->next;
 				if (temp != nullptr)
 					cout << " --> ";
