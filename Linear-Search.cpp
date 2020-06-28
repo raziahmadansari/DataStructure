@@ -32,7 +32,7 @@ int main()
 	if (index == size)
 		cout << search << " Not found in this List." << endl;
 	else
-		cout << search << " found at position: " << i << endl;
+		cout << search << " found at position: " << index << endl;
 
 	delete[] arr;
 	arr = nullptr;
