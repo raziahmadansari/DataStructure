@@ -27,9 +27,9 @@ int main()
 	cout << "Enter Value you want to search: ";
 	cin >> search;
 
-	int i = linearSearch(arr, search, size);
+	int index = linearSearch(arr, search, size);
 
-	if (i == size)
+	if (index == size)
 		cout << search << " Not found in this List." << endl;
 	else
 		cout << search << " found at position: " << i << endl;
